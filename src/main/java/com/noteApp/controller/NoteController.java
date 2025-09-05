@@ -21,7 +21,7 @@ import com.noteApp.service.NoteService;
 
 @RestController
 @RequestMapping("/api/notes")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://app-frontend-notes.vercel.app")
 public class NoteController {
 
     private final NoteService noteService;
